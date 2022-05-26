@@ -1,0 +1,29 @@
+:root{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.library{
+  font-size: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145, 145, 145);
+}
+
+
+.add-book{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-book-form{
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: 5px grey;
+}
